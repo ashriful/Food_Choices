@@ -10,19 +10,19 @@ I will be creating visuals from the dataset to see the trends and information I 
 
 The first focus on this project will be to look at gender and reasons for food choices. More specifically, what were the reasons students ate comfort food and what if any are the differences between men and women in the data. 
 
-##### How are you going to do it? 
+#### How are you going to do it? 
 
 R. And ggplot. Cause that's all I know so far. 
 
-##### Is it gonna be pretty? 
+#### Is it gonna be pretty? 
 
 The benefit of using ggplot is that it offers beautiful pastel shades of colors as a default for many of the graphs. It also offers and intuitive and simple way to customize labels, colors, and such. 
 
-###### What's the goal? 
+#### What's the goal? 
 
 Make as many graphs until I get bored with this dataset. 
 
-##### Why are you doing this? 
+#### Why are you doing this? 
 
 I need reassurance that my existance isn't futile. 
 
