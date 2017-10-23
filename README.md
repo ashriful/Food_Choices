@@ -6,7 +6,7 @@ This is an exploratory analysis of [data found from Kaggle](https://www.kaggle.c
 I will be creating visuals from the dataset to see the trends and information I can gather just from graphs. The data is great to work with for the fact it has a code sheet that offers an explanation for the information found in the csv. 
 
 
-#####So what are we looking at? 
+####So what are we looking at? 
 
 The first focus on this project will be to look at gender and reasons for food choices. More specifically, what were the reasons students ate comfort food and what if any are the differences between men and women in the data. 
 
