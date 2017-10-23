@@ -6,27 +6,27 @@ This is an exploratory analysis of [data found from Kaggle](https://www.kaggle.c
 I will be creating visuals from the dataset to see the trends and information I can gather just from graphs. The data is great to work with for the fact it has a code sheet that offers an explanation for the information found in the csv. 
 
 
-####So what are we looking at? 
+#### So what are we looking at? 
 
 The first focus on this project will be to look at gender and reasons for food choices. More specifically, what were the reasons students ate comfort food and what if any are the differences between men and women in the data. 
 
-#####How are you going to do it? 
+##### How are you going to do it? 
 
 R. And ggplot. Cause that's all I know so far. 
 
-#####Is it gonna be pretty? 
+##### Is it gonna be pretty? 
 
 The benefit of using ggplot is that it offers beautiful pastel shades of colors as a default for many of the graphs. It also offers and intuitive and simple way to customize labels, colors, and such. 
 
-######What's the goal? 
+###### What's the goal? 
 
 Make as many graphs until I get bored with this dataset. 
 
-#####Why are you doing this? 
+##### Why are you doing this? 
 
 I need reassurance that my existance isn't futile. 
 
-##Dirty Data  
+## Dirty Data  
 
 Honestly I forgot everything I did to clean the data. But what I do know is that there are 125 entries(students) and 59 categories(responses to questions). The word file that came with the data helped make sense of the columns and sparked all ideas for this project. It's worth a look through if you're interested in this project, but I offered a sample below. 
 
@@ -39,7 +39,7 @@ Honestly I forgot everything I did to clean the data. But what I do know is that
 
 To clean up the data, I loaded the csv in Excel(well Openoffice cause I spent the MS Office money on whiskey). I used their find and replace function to fill in missing data or N/A data with zeros. 
 
-##Men vs Women 
+## Men vs Women 
 
 After loading the data into RStudio with the function:
 
@@ -63,7 +63,7 @@ All that gave me this beautiful graph:
 
 ![alt text](https://github.com/ashriful/Food_Choices/blob/master/Gender_Graph.png "Have you seen anything so pretty?")
 
-##Reasons for those numbers on the scale
+## Reasons for those numbers on the scale
 
 The next curosity I had looking through the data was the section for comfort food. The data included a coded column where the researcher asked students what their main reasons were for eating comfort food. From the food_coded doc:
 
@@ -98,7 +98,8 @@ Graph:
 ![alt text](https://github.com/ashriful/Food_Choices/blob/master/Food_Choices.png "Money is the easiest way to quantify success")
 
 Things to improve: Stop being lazy and label the x-axis 
-##Who's more depressed? 
+
+## Who's more depressed? 
 
 Now to explore this data in interesting ways, it's worth comparing different variables. Combining what I learned from the first two graph I wanted to see what were the respective reasons men and women to choose comfort food. 
 
@@ -135,5 +136,5 @@ Which gives you this graph:
 
 ![alt text](https://github.com/ashriful/Food_Choices/blob/master/MenandWomen.png "I got lazy after this")
 
-##What now? 
+## What now? 
 TBA
